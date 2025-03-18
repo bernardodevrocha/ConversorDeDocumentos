@@ -11,7 +11,12 @@ async function main(){
 
   var usuarios = new Table(dadosProcessados);
 
-  console.log(usuarios.header);
+  usuarios.rows.push(["Ana Oliveira", "Formação PHP", "PHP", "32"])
+
+  usuarios.RowCount;
+  console.log(usuarios.RowCount); 
+  console.log(usuarios.ColumnCount); 
+
 }
 
 main();
